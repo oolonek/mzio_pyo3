@@ -1,0 +1,12 @@
+[package]
+name = "mgf_rs_io"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.16.2", features = ["extension-module"] }
+numpy = "0.16.2"
+mzdata = "0.48.2"
