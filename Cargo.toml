@@ -10,3 +10,4 @@ crate-type = ["cdylib"]
 pyo3 = { version = "0.16.2", features = ["extension-module"] }
 numpy = "0.16.2"
 mzdata = "0.48.2"
+mascot_rs = "0.1.0"
